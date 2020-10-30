@@ -70,14 +70,8 @@ def login_select():
         os.system("clear")
         print banner
         print 
-        print ("Login With Token").center(50)
-        print
-        print ("[1] Create a New  Account And Download GetAccessToken Apk From Playstore")
-        print('')
-        print ("[2] After Opening Apk Give Your ID & Password And Click On Get Now To Get Token and Paste Here")
-        print('')
-        print ("[3] Please Enable Two Factor Authentication On Your Account Before Creating Token")
-        print 
+        print      ("Login With Token").center(50)
+        
         print 50*   ("-")
         print 
         token = raw_input("Paste Token Here : ")
