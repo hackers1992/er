@@ -569,7 +569,7 @@ def crack2():
 		                                                                                        cp=open("save/cp.txt","a")
 		                                                                                        cp.write(uid+" | "+pass11+"\n")
 		                                                                                        cp.close()
-		                                                                                       cps.append(uid)
+		                                                                                        cps.append(uid)
 		                                                                                    else:
 		                                                                                        if 'access_token' in d:
 		                                                                                            print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass11+"\x1b[1;0m")
