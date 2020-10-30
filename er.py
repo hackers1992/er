@@ -71,7 +71,14 @@ YP   YP       `Y88P'       88 [V 2.o]
 * Note      : Be Aware Of All CopyCats  
 
 ----------------------------------------------------- """
+idh = []
 
+def tool_login():
+    os.system("clear")
+    print banner
+    print 
+    
+        tool_login()
 
 def login_choice():
     os.system("clear")
