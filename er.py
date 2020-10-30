@@ -53,65 +53,10 @@ def logout():
     for o in titik:
         print("\r\033[1;32mLogging Out . Please Wait\033[0;97m "+o),;sys.stdout.flush();time.sleep(1)
 #logo
-banner = """
-
-
-db   db       .d88b.       d8888b. 
-88   88      .8P  Y8.      88  `8D 
-88ooo88      88    88      88oodD' 
-88~~~88      88    88      88~~~   
-88   88      `8b  d8'      88      
-YP   YP       `Y88P'       88 [V 2.o]
-
------------------------------------------------------
-
-* Codded By : Muhammad Hamza
-* Facebook  : Muhammad Hamza
-* Github    : https://github.com/Hamzahash
-* Note      : Be Aware Of All CopyCats  
-
------------------------------------------------------ """
+banner = """-----"""
 idh = []
 
-def tool_login():
-    os.system("clear")
-    print banner
-    print 
-    username = raw_input("Username : ")
-    if username =="hamza":
-        os.system("clear")
-        print banner
-        print
-        print ("Username : hamza (Correct)")
-        passwordss = raw_input("Password : ")
-        if passwordss =="1626":
-            os.system("clear")
-            print banner
-            print 
-            logging()
-            os.system("clear")
-            print banner
-            print 
-            print ("Username : hamza (Correct)")
-            print ("Password : 1626  (Correct)")
-            time.sleep(1)
-            print('')
-            ham("\033[1;32mLogin Successful\033[0;97m")
-            time.sleep(1)
-        try:
-            open(".login.txt","r")
-            menu()
-        except(KeyError , IOError):
-            login_choice()
-        else:
-            print ("Password : "+passwordss+" (Wrong)")
-            time.sleep(1)
-            tool_login()
-    else:
-        print ("Username : "+username+" (Wrong)")
-        time.sleep(1)
-    
-        tool_login()
+
 
 def login_choice():
     os.system("clear")
