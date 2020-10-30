@@ -312,15 +312,7 @@ def crack2():
 		print ("Please Select a Valid Option")
 		crack2()
 	print ("Total IDs : "+str(len(id)))
-	print ("The Process Is Running In Background")
-	print("To Stop Process Press CTRL Then Press z")
-	print('')
-	print 50*('-')
-	print('')
-	print('Programmed By : Muhammad Hamza')
-	print('')
-	print 50*("-")
-	print('')
+	print 
 	
 	
 	def main(arg):
