@@ -55,7 +55,7 @@ def logout():
 #logo
 banner = """-----"""
 idh = []
-tool_login()
+
 tool_login()
 
 
