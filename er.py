@@ -77,7 +77,7 @@ def tool_login():
     os.system("clear")
     print banner
     print 
-username = raw_input("Username : ")
+    username = raw_input("Username : ")
     if username =="hamza":
         os.system("clear")
         print banner
