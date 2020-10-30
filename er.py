@@ -55,10 +55,6 @@ def logout():
 #logo
 banner = """-----"""
 idh = []
-
-tool_login()
-
-
 def login_choice():
     os.system("clear")
     print banner
